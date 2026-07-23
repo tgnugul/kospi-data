@@ -38,5 +38,6 @@ jobs:
             echo "no changes"
           else
             git commit -m "prices: $(date -u +%Y-%m-%d) auto update"
+            git pull --rebase origin main
             git push
           fi
