@@ -30,6 +30,7 @@ TICKERS = {
     "030000": "제일기획",
     "067160": "SOOP",
     "007310": "오뚜기",
+    "051900": "LG생활건강",
 }
 US_TICKERS = {"CPNG": "쿠팡"}  # FinanceDataReader가 미국 종목도 지원
 
