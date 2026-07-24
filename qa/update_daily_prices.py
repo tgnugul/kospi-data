@@ -32,7 +32,7 @@ TICKERS = {
     "007310": "오뚜기",
     "051900": "LG생활건강",
 }
-US_TICKERS = {"CPNG": "쿠팡"}  # FinanceDataReader가 미국 종목도 지원
+US_TICKERS = {"CPNG": "쿠팡", "NKE": "나이키", "DIS": "디즈니"}  # FinanceDataReader가 미국 종목도 지원
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "live", "prices_latest.csv")
 
